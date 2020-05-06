@@ -21,18 +21,12 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   newarray = []
-  i = 0
-  while i < array.length
-    newarray << array[i]
-    i += 1
-    if i > 3
-      true
-
-    else
-      false
-    end
+  phrase = array.split(" ")
+  if phrase.length > 4
+    true
+  else
+    false
   end
-
 end
 
 def find_the_cheese# code an argument here
