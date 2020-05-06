@@ -23,9 +23,9 @@ def long_planeteer_calls# code an argument here
   i = 0
   while i < array.length
     if condition
-      
+
     else
-      
+
     end
   end
 end
