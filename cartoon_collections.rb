@@ -20,9 +20,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  newarray = []
-  phrase = array.split(" ")
-  if phrase.length > 4
+  if array.any?{|i| i > 4}
     true
   else
     false
