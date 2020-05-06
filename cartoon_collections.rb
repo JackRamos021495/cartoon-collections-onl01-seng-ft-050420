@@ -20,6 +20,14 @@ end
 
 def long_planeteer_calls# code an argument here
   # Your code here
+  i = 0
+  while i < array.length
+    if condition
+      
+    else
+      
+    end
+  end
 end
 
 def find_the_cheese# code an argument here
